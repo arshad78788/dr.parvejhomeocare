@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Parvej’s HomeoCare</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+    }
+    header {
+      background: #00897b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #00695c;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #004d40;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #00695c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      background: #00897b;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="drparvej. jpg.jpg" alt="Dr. Parvej's HomeoCare Logo" />
+    <h1>Dr. Parvej’s HomeoCare</h1>
+    <p>Natural Healing, Personal Touch</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Dr. Parvej’s HomeoCare</h2>
+    <p>We provide natural and effective homeopathic treatment for a wide range of conditions like skin issues, child health, piles, and female disorders. Book your consultation today!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Dr. Parvej Alam Siddiqui</strong> is a qualified and experienced homeopathic practitioner committed to providing natural healing and personal care to every patient. We offer both online and offline consultations to suit your needs.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Skin Treatment</h3>
+        <p>Effective remedies for acne, eczema, psoriasis, and other skin conditions.</p>
+      </div>
+      <div class="card">
+        <h3>Child Health</h3>
+        <p>Safe and gentle treatments for children’s immunity, digestion, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Piles (Bawasir)</h3>
+        <p>Non-surgical homeopathic solutions for piles, fissures, and fistulas.</p>
+      </div>
+      <div class="card">
+        <h3>Female Disorders</h3>
+        <p>Treatment for hormonal issues, PCOS, menstrual problems, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointment">
+    <h2>Book Appointment</h2>
+    <form action="mailto:drparvejalamsiddiqui@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Phone Number" required />
+      <textarea name="message" rows="4" placeholder="Your Message or Preferred Time"></textarea>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:+917908208942">+91 7908208942</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/917908208942" target="_blank">Chat on WhatsApp</a></p>
+    <p><strong>Email:</strong> <a href="mailto:drparvejalamsiddiqui@gmail.com">drparvejalamsiddiqui@gmail.com</a></p>
+    <p><strong>Location:</strong> Hazinagar, Naihati, West Bengal</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. Parvej’s HomeoCare. All rights reserved.</p>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/917908208942" class="whatsapp-button" title="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
