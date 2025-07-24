@@ -101,7 +101,7 @@
 <body>
 
   <header>
-    <img src="drparvej.jpg" alt="Dr. Parvej's HomeoCare Logo" />
+    <img src="images/drparvej.jpg" alt="Dr. Parvej's HomeoCare Logo" />
     <h1>Dr. Parvej’s HomeoCare</h1>
     <p>Natural Healing, Personal Touch</p>
   </header>
